@@ -164,6 +164,17 @@
 									}
 								},
 								{
+									"Description": "Use this function to help a user learn more about a user's profile.",
+									"Name": "org_sage_zero_get_user_profile",
+									"Parameters": {
+										"userId": {
+											"Description": "The ID of the user to fetch more information about.",
+											"Required": true,
+											"Type": "string"
+										}
+									}
+								},
+								{
 									"Description": "Use this function to get the full description of any entity. This can be used for cases where a description has been marked as --truncated-- .",
 									"Name": "org_sage_zero_get_description",
 									"Parameters": {
